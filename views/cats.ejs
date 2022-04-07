@@ -1,0 +1,20 @@
+<%- include("partials/head"); %>
+
+    <%- include("partials/navbar"); %>
+
+        <h1>All The Cats</h1>
+        <ul>
+            <% for(let cat of cats) { %>
+                <li>
+                    <%= cat %>
+                </li>
+                <% } %>
+        </ul>
+
+        <!-- <p>
+        <%= cats %>
+    </p> -->
+
+        </body>
+
+        </html>
